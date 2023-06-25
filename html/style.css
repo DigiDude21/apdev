@@ -77,31 +77,32 @@ body{
 }
 
 .wrapper .login-box{
+    padding-top: 2%;
     border-radius: 25px;
-    width: 60rem;
-    height: 35rem;
-    margin-top: 10%;
-    margin-left: 30%;
-    margin-right: 15%;
-    margin-bottom: 10%;
+    width: 38rem;
+    height: 38rem;
+    margin-top: 12.4%;
+    margin-left: 42.7%;
     background: linear-gradient(135deg, #72EDF2 0%, #6b6ba2 100%);
     color: white;
+    text-align: center;
 }
 
-
-.wrapper .login-box h2{
+.wrapper .login-box h1{
     color:#ffffff;
     padding-top: 10%;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
 }
 
 .wrapper .login-box .text-field{
     border-radius: 40px;
-    width: 300px;
-    height: 40px;
+    width: 480px;
+    height: 50px;
     padding-left: 10px;
     margin-bottom: 30px;
+    font-size: 17px;
 }
+
 
 .wrapper .login-box .text-field::placeholder{
     position: absolute;
@@ -112,8 +113,8 @@ body{
     background-color: var(--primary-color, #23A6F0);
     border-color: white;
     border-radius: 40px;
-    width: 130px;
-    height: 40px;
+    width: 160px;
+    height: 45px;
     margin-bottom: 5%;
     text-align: center;
     font-family: "Work Sans";
@@ -124,6 +125,12 @@ body{
 
 .text-10{
     margin-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#extras{
+    text-align: left;
 }
 
 .text-10 a{
