@@ -56,6 +56,9 @@ body{
     margin-left: 10px;
 }
 
+.dis-block .action-confirm{
+    left: 350px;
+}
 
 .action-confirm{
     background-color: var(--primary-color, #23A6F0);
@@ -70,7 +73,6 @@ body{
     font-size: 20px;
     color: white;
     position: relative;
-    left: 350px;
 }
 
 /* .background-container {
@@ -146,6 +148,7 @@ body{
     background: linear-gradient(135deg, #72EDF2 0%, #6b6ba2 100%);
     color: white;
     text-align: center;
+    box-shadow: 2px 3px black;
 }
 
 .wrapper .login-box h1{
