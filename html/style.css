@@ -23,6 +23,11 @@ body{
 
 }
 
+.option-box{
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
 .option-logo {
     height: 165px;
     width: 165px;
@@ -34,9 +39,13 @@ body{
     margin-left: 65px;
 }
 
-.option-logo i{
-    font-size: 6em;
+.option-logo a{
+    color: black;
     position: absolute;
+}
+
+.option-logo a i{
+    font-size: 10em;
 }
 
 #edit{
@@ -103,30 +112,6 @@ body{
     position: relative;
 }
 
-/* .background-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    overflow: hidden;
-}
-
-.background-container::after {
-    content: "";
-    background-image: url("./warehouse.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: grayscale(120%);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-} */
-
 .wrapper{
     display: flex;
     position: relative;
@@ -171,8 +156,8 @@ body{
     border-radius: 25px;
     width: 38rem;
     height: 38rem;
-    margin-top: 12.4%;
-    margin-left: 42.7%;
+    margin: auto;
+    margin-top: 10%;
     background: linear-gradient(135deg, #72EDF2 0%, #6b6ba2 100%);
     color: white;
     text-align: center;
@@ -230,6 +215,12 @@ body{
 }
 
 
+.h2-10{
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+
 /*Responsive Navbar*/
 @media (max-width: 400px){
     .wrapper{
@@ -251,14 +242,78 @@ body{
     }
 }
 
-.wrapper{
-    display: flex;
-    height: 100vh;
-}
 .sidebar{
     flex: 0 0 200px;
 }
-.content-area{
-    flex: 1;
-    height: 100%;
+
+.wrapper .content-area{
+    width: 100%;
+    margin-left: 200px;
+}
+.description{
+    margin: 30px;
+}
+
+.contact-box{
+    display: block;
+
+    width: 1000px;
+    height: auto;
+    background-image: linear-gradient(90deg, rgba(94,133,252,1) 0%, rgba(104,98,247,1) 100%);
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 10%;
+
+}
+
+.contact-box .text-20{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.contact-box .location-picture{
+    padding: 20px;
+}
+
+.contact-box .socials-box{
+    padding: 20px;
+    font-size: 19px;
+}
+
+.warehouse{
+    width: 950px;
+}
+
+.suggestion-box{
+    margin: auto;
+    background-image: linear-gradient(90deg, rgba(94,133,252,1) 0%, rgba(104,98,247,1) 100%);
+    border-radius: 25px;
+    margin-top: 30px;
+    width: 1000px;
+    height: auto;
+    padding: 10px;
+
+}
+
+.suggestion-box .sug-block{
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+#suggestion-box{
+    resize: none;
+    width: 900px;
+    height: 300px;
+}
+
+#submit{
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border-color: white;
+    background-color: black;
+    color: white;
+    font-weight: bold;
 }
